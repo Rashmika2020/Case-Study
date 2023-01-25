@@ -1,0 +1,96 @@
+2023-01-19 10:18:39 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-19 10:18:39 - Started 9460
+2023-01-19 11:30:53 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-19 11:30:53 - Started 10876
+2023-01-19 14:04:27 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-19 14:04:27 - Started 6388
+2023-01-19 15:37:31 - Stopping clientnodeapp.exe
+2023-01-19 15:37:31 - ProcessKill 6388
+2023-01-19 15:37:31 - Found child process: 6448 Name: conhost.exe
+2023-01-19 15:37:31 - Found child process: 7300 Name: node.exe
+2023-01-19 15:37:31 - Stopping process 6448
+2023-01-19 15:37:31 - Send SIGINT 6448
+2023-01-19 15:37:31 - SIGINT to 6448 failed - Killing as fallback
+2023-01-19 15:37:31 - Stopping process 7300
+2023-01-19 15:37:31 - Send SIGINT 7300
+2023-01-19 15:37:31 - SIGINT to 7300 failed - Killing as fallback
+2023-01-19 15:37:31 - Stopping process 6388
+2023-01-19 15:37:31 - Send SIGINT 6388
+2023-01-19 15:37:31 - SIGINT to 6388 failed - Killing as fallback
+2023-01-19 15:37:31 - Finished clientnodeapp.exe
+2023-01-19 15:38:19 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-19 15:38:19 - Started 16524
+2023-01-19 15:55:51 - Stopping clientnodeapp.exe
+2023-01-19 15:55:51 - ProcessKill 16524
+2023-01-19 15:55:51 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-01-19 15:56:27 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-19 15:56:27 - Started 6224
+2023-01-20 12:15:52 - Stopping clientnodeapp.exe
+2023-01-20 12:15:52 - ProcessKill 6224
+2023-01-20 12:15:53 - Found child process: 6284 Name: conhost.exe
+2023-01-20 12:15:53 - Found child process: 6516 Name: node.exe
+2023-01-20 12:15:53 - Stopping process 6284
+2023-01-20 12:15:53 - Send SIGINT 6284
+2023-01-20 12:15:53 - SIGINT to 6284 failed - Killing as fallback
+2023-01-20 12:15:53 - Stopping process 6516
+2023-01-20 12:15:53 - Send SIGINT 6516
+2023-01-20 12:15:53 - SIGINT to 6516 failed - Killing as fallback
+2023-01-20 12:15:53 - Stopping process 6224
+2023-01-20 12:15:53 - Send SIGINT 6224
+2023-01-20 12:15:53 - SIGINT to 6224 failed - Killing as fallback
+2023-01-20 12:15:53 - Finished clientnodeapp.exe
+2023-01-20 12:18:45 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-20 12:18:45 - Started 17924
+2023-01-23 09:00:44 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-23 09:00:45 - Started 4032
+2023-01-24 08:50:59 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-24 08:50:59 - Started 17280
+2023-01-24 08:51:29 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-24 08:51:29 - Started 24300
+2023-01-24 20:07:12 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-24 20:07:12 - Started 24672
+2023-01-25 08:33:03 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-25 08:33:03 - Started 10304
+2023-01-25 10:44:35 - Stopping clientnodeapp.exe
+2023-01-25 10:44:35 - ProcessKill 10304
+2023-01-25 10:44:35 - Found child process: 6492 Name: conhost.exe
+2023-01-25 10:44:35 - Found child process: 10764 Name: node.exe
+2023-01-25 10:44:35 - Stopping process 6492
+2023-01-25 10:44:35 - Send SIGINT 6492
+2023-01-25 10:44:35 - SIGINT to 6492 failed - Killing as fallback
+2023-01-25 10:44:35 - Stopping process 10764
+2023-01-25 10:44:35 - Send SIGINT 10764
+2023-01-25 10:44:35 - SIGINT to 10764 failed - Killing as fallback
+2023-01-25 10:44:35 - Stopping process 10304
+2023-01-25 10:44:35 - Send SIGINT 10304
+2023-01-25 10:44:35 - SIGINT to 10304 failed - Killing as fallback
+2023-01-25 10:44:35 - Finished clientnodeapp.exe
+2023-01-25 10:45:45 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-25 10:45:45 - Started 23152
+2023-01-25 16:25:31 - Stopping clientnodeapp.exe
+2023-01-25 16:25:31 - ProcessKill 23152
+2023-01-25 16:25:31 - Found child process: 17496 Name: conhost.exe
+2023-01-25 16:25:31 - Found child process: 10572 Name: node.exe
+2023-01-25 16:25:31 - Stopping process 17496
+2023-01-25 16:25:31 - Send SIGINT 17496
+2023-01-25 16:25:31 - SIGINT to 17496 failed - Killing as fallback
+2023-01-25 16:25:31 - Stopping process 10572
+2023-01-25 16:25:31 - Send SIGINT 10572
+2023-01-25 16:25:31 - SIGINT to 10572 failed - Killing as fallback
+2023-01-25 16:25:31 - Stopping process 23152
+2023-01-25 16:25:31 - Send SIGINT 23152
+2023-01-25 16:25:31 - SIGINT to 23152 failed - Killing as fallback
+2023-01-25 16:25:31 - Finished clientnodeapp.exe
+2023-01-25 16:26:20 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Rashmika\Case_Study\BackendCaseStudy\node_modules\node-windows\lib\wrapper.js --file D:\Rashmika\Case_Study\BackendCaseStudy\index.js --scriptoptions= --log "ClientNodeApp wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-25 16:26:20 - Started 7724
