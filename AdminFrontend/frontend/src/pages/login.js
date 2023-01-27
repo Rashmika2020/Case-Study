@@ -18,19 +18,26 @@ export default function Login() {
   const [password, setPassword] = useState("");
 
   const [loginStatus, setloginStatus] = useState(true);
+  const [registerStatus, setRegisterStatus] = useState(""); 
 
   const navigate = useNavigate();
 
-  const register = () => {
+  const register = (e) => {
+    e.preventDefault();
     Axios.post("http://localhost:3001/register", {
       username: usernameReg,
       password: passwordReg,
     }).then((response) => {
-      console.log(response);
+      if(response.data.message){
+        setRegisterStatus(response.data.message);
+      }else{
+        alert("Successfully signup")
+      }
     });
   };
 
-  const login = () => {
+  const login = (e) => {
+    e.preventDefault();
     Axios.post("http://localhost:3001/login", {
       username: username,
       password: password,
@@ -41,7 +48,7 @@ export default function Login() {
         console.log("login loginStatus " + loginStatus);
 
         setloginStatus(true);
-        navigate(`/details`);
+        navigate(`/comdetails`);
       } else {
         alert("User is not found!");
       }
