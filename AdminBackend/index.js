@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const server = require("http").Server(app);
-const io = require("socket.io")(server);
 const mysql = require("mysql2");
 const axios = require("axios");
 var cors = require('cors')
@@ -15,18 +14,16 @@ var pool = mysql.createPool({
   database: "Login",
 });
 
-
-
 app.post("/register", (req, res) => {
   const username = req.body.username;
   const password = req.body.password;
 
   pool.query(
     "INSERT INTO users (username, password) VALUES (?,?)",
-    [username, password]
-    // (err, result) => {
-    //   alert(err);
-    // }
+    [username, password],
+    (err, result) => {
+      alert(err);
+    }
   );
 });
 

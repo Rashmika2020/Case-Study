@@ -20,14 +20,13 @@ export default function Login() {
   const [loginStatus, setloginStatus] = useState(true);
 
   const navigate = useNavigate();
-  // const[loginstatus,setLoginstatus]=useState('')
 
   const register = () => {
     Axios.post("http://localhost:3001/register", {
       username: usernameReg,
       password: passwordReg,
     }).then((response) => {
-      console.log(response.data);
+      console.log(response);
     });
   };
 
@@ -55,7 +54,8 @@ export default function Login() {
         <MDBRow>
           <h1
             className="px-3 display-3 fw-bold ls-tight px-3"
-            style={{ color: "hsl(218, 81%, 95%)" }}>
+            style={{ color: "hsl(218, 81%, 95%)" }}
+          >
             Get Status of Computers <br />
           </h1>
 

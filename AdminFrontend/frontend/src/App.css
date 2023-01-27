@@ -3,13 +3,13 @@
 }
 
 .p-4{
-  background-color:  rgb(61, 130, 164);
+  background-color:  rgb(18, 34, 43);
   
 }
 
 .p-5{
   height:auto;
-  background-color: rgba(31, 34, 212, 0.219);
+  background-color: rgba(141, 141, 185, 0.082);
 }
 
 .mb-4{
@@ -20,13 +20,11 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.p-5{
-  height: auto;
-}
+
 
 .px-3{
-  margin-left: 300px;
-  font-size: 50px;
+  margin-left: 400px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -48,7 +46,6 @@
   margin-left: 350px;
   margin-top: 50px;
 
-  background-color: rgba(5, 9, 56, 0.596);
 }
 
 .my-5{
@@ -68,8 +65,8 @@
 }
 
 .p-8{
-  background-color:  rgb(61, 130, 164);
-  height:650px;
+  background-color: rgb(18, 34, 43);;
+  height:655px;
 }
 
 .px-8{
@@ -80,4 +77,13 @@
   margin-left: 250px;
   font-size: 35px;
   font-weight: bold;
+}
+
+.badge{
+  width: 150px;
+  height: 40px;
+  margin-top: 55px;
+  margin-left: 170px;
+  text-align: center;
+  
 }
