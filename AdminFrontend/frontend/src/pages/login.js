@@ -18,7 +18,7 @@ export default function Login() {
   const [password, setPassword] = useState("");
 
   const [loginStatus, setloginStatus] = useState(true);
-  const [registerStatus, setRegisterStatus] = useState(""); 
+  const [registerStatus, setRegisterStatus] = useState("");
 
   const navigate = useNavigate();
 
@@ -28,10 +28,10 @@ export default function Login() {
       username: usernameReg,
       password: passwordReg,
     }).then((response) => {
-      if(response.data.message){
+      if (response.data.message) {
         setRegisterStatus(response.data.message);
-      }else{
-        alert("Successfully signup")
+      } else {
+        alert("Successfully signup");
       }
     });
   };

@@ -3,10 +3,10 @@ const app = express();
 const server = require("http").Server(app);
 const mysql = require("mysql2");
 const axios = require("axios");
-var cors = require('cors')
+var cors = require("cors");
 
 app.use(express.json());
-app.use(cors()) 
+app.use(cors());
 
 var pool = mysql.createConnection({
   user: "root",
@@ -15,12 +15,10 @@ var pool = mysql.createConnection({
   database: "Login",
 });
 
-//connect to the database
-pool.connect(function(error){
-  if(error) throw error
+pool.connect(function (error) {
+  if (error) throw error;
   else console.log("connected to the database successfully");
-  }
-)
+});
 
 app.post("/register", (req, res) => {
   const username = req.body.username;
@@ -30,10 +28,10 @@ app.post("/register", (req, res) => {
     "INSERT INTO users (username, password) VALUES (?,?)",
     [username, password],
     (err, result) => {
-      if(result){
+      if (result) {
         res.send(result);
-      }else{
-         res.send({message:"Enter correct details"})
+      } else {
+        res.send({ message: "Enter correct details" });
       }
     }
   );
@@ -63,8 +61,6 @@ app.post("/login", (req, res) => {
     }
   );
 });
-
-
 
 async function getClientData() {
   try {

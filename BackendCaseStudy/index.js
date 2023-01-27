@@ -15,12 +15,11 @@ console.log(require("os").userInfo().username);
 var _ = require("lodash");
 var ps = require("current-processes");
 
-app.get("/user",(req,res)=>{
+app.get("/user", (req, res) => {
   const username = process.env.USERPROFILE;
   console.log(`Username: {username}`);
   res.send(`{username}`);
 });
-
 
 setInterval(() => {
   app.get("/details", (req, res) => {
